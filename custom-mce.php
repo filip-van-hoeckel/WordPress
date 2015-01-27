@@ -1,3 +1,4 @@
+<?
 // TinyMCE: First line toolbar customizations
 if( !function_exists('base_extended_editor_mce_buttons') ){
 	function base_extended_editor_mce_buttons($buttons) {
@@ -46,3 +47,4 @@ if( !function_exists('base_custom_mce_format') ){
 	}
 	add_filter('tiny_mce_before_init', 'base_custom_mce_format' );
 }
+?>
