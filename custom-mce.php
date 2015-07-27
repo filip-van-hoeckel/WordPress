@@ -40,8 +40,7 @@ if( !function_exists('base_extended_editor_mce_buttons_2') ){
 if( !function_exists('base_custom_mce_format') ){
 	function base_custom_mce_format($init) {
 		// Add block format elements you want to show in dropdown
-		$init['theme_advanced_blockformats'] = 'p,h2,h3,h4';
-		// Add elements not included in standard tinyMCE dropdown p,h1,h2,h3,h4,h5,h6
+		$init['block_formats'] = 'Paragraph=p;Header 2=h2;Header 3=h3';
 		//$init['extended_valid_elements'] = 'code[*]';
 		return $init;
 	}
